@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #0000007d;
+}
+
+button {
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1515156f;
+}
+
+button:hover{
+    transition: 1s;
+    background-color: #f2f2f2;
+}
+
+#buttons {
+    display: flex;
+    gap: 30px;
+}
